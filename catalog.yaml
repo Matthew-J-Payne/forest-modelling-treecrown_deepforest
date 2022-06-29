@@ -1,0 +1,8 @@
+
+sources:
+  NEONTREE_rgb:
+    driver: xarray_image
+    description: 'NeonTreeEvaluation RGB images (collection)'
+    args:
+      urlpath: "{{ CATALOG_DIR }}/2018_MLBS_3_541000_4140000_image_crop.tif"
+      
